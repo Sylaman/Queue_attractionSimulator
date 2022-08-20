@@ -20,7 +20,7 @@ public class Main {
     }
 
     static List<Person> generateClients() {
-        ArrayList<Person> clients = new ArrayList<>();
+        List<Person> clients = new ArrayList<>();
         clients.add(new Person("Алексей", "Непомнящий", 3));
         clients.add(new Person("Анастасия", "Куницкая", 8));
         clients.add(new Person("Анна", "Устинова", 5));
